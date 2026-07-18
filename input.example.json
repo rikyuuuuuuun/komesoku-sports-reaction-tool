@@ -1,0 +1,20 @@
+{
+  "player_name": "Shohei Ohtani",
+  "game_date": "2026-07-18",
+  "matchup": "Los Angeles Dodgers vs Example Opponent",
+  "target_play_terms": ["Ohtani", "Shohei", "home run", "pitching"],
+  "youtube_video_urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID",
+      "subject": "Shohei Ohtani",
+      "play": "three-run home run",
+      "inning": "7th inning",
+      "context": "Ohtani hit a three-run home run in this video"
+    }
+  ],
+  "x_post_urls": [],
+  "reddit_thread_urls": [],
+  "reddit_fetch": {"max_comments_per_thread": 300},
+  "reddit_manual_json_paths": [],
+  "reddit_manual_csv_paths": []
+}

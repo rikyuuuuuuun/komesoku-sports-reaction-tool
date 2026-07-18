@@ -1,0 +1,9 @@
+.env
+input.json
+output/
+output*/
+cache/
+fixtures/
+__pycache__/
+*.pyc
+*.log
