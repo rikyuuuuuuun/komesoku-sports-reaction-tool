@@ -1,0 +1,178 @@
+{
+  "app": "hirihiri-handicap",
+  "version": 1,
+  "players": [
+    {
+      "id": "A",
+      "name": "Aさん",
+      "baseline": 85,
+      "createdAt": 1
+    },
+    {
+      "id": "B",
+      "name": "Bさん",
+      "baseline": 92,
+      "createdAt": 2
+    },
+    {
+      "id": "C",
+      "name": "Cさん",
+      "baseline": 100,
+      "createdAt": 3
+    },
+    {
+      "id": "D",
+      "name": "Dさん",
+      "baseline": 108,
+      "createdAt": 4
+    }
+  ],
+  "rounds": [
+    {
+      "id": "r1",
+      "date": "2026-05-01",
+      "course": "サンプルCC",
+      "par": 72,
+      "createdAt": 1,
+      "entries": [
+        {
+          "pid": "A",
+          "gross": 86,
+          "hcp": 0
+        },
+        {
+          "pid": "B",
+          "gross": 91,
+          "hcp": 7
+        },
+        {
+          "pid": "C",
+          "gross": 101,
+          "hcp": 15.5
+        },
+        {
+          "pid": "D",
+          "gross": 110,
+          "hcp": 23.5
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "date": "2026-06-01",
+      "course": "サンプルCC",
+      "par": 72,
+      "createdAt": 2,
+      "entries": [
+        {
+          "pid": "A",
+          "gross": 84,
+          "hcp": 0
+        },
+        {
+          "pid": "B",
+          "gross": 95,
+          "hcp": 6.5
+        },
+        {
+          "pid": "C",
+          "gross": 97,
+          "hcp": 15
+        },
+        {
+          "pid": "D",
+          "gross": 104,
+          "hcp": 23.5
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "date": "2026-07-01",
+      "course": "サンプルCC",
+      "par": 72,
+      "createdAt": 3,
+      "entries": [
+        {
+          "pid": "A",
+          "gross": 88,
+          "hcp": 0
+        },
+        {
+          "pid": "B",
+          "gross": 90,
+          "hcp": 7.5
+        },
+        {
+          "pid": "C",
+          "gross": 104,
+          "hcp": 14.5
+        },
+        {
+          "pid": "D",
+          "gross": 115,
+          "hcp": 22
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "date": "2026-08-01",
+      "course": "サンプルCC",
+      "par": 72,
+      "createdAt": 4,
+      "entries": [
+        {
+          "pid": "A",
+          "gross": 83,
+          "hcp": 0
+        },
+        {
+          "pid": "B",
+          "gross": 93,
+          "hcp": 6.5
+        },
+        {
+          "pid": "C",
+          "gross": 99,
+          "hcp": 14.5
+        },
+        {
+          "pid": "D",
+          "gross": 102,
+          "hcp": 22.5
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "date": "2026-09-01",
+      "course": "サンプルCC",
+      "par": 72,
+      "createdAt": 5,
+      "entries": [
+        {
+          "pid": "A",
+          "gross": 85,
+          "hcp": 0
+        },
+        {
+          "pid": "B",
+          "gross": 120,
+          "hcp": 7
+        },
+        {
+          "pid": "C",
+          "gross": 98,
+          "hcp": 14.5
+        },
+        {
+          "pid": "D",
+          "gross": 109,
+          "hcp": 21
+        }
+      ]
+    }
+  ],
+  "settings": {}
+}

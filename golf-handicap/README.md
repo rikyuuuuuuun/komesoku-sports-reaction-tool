@@ -41,10 +41,14 @@
 
 ```text
 golf-handicap/
-├─ index.html           # 画面(ビルド不要。ブラウザで開くだけ)
+├─ SPEC.md              # 仕様書(画面・データ・計算式・検証用の数値)
+├─ CHATGPT_PROMPT.md    # ほかのAIに作り直してもらうときの頼み方
+├─ index.html           # 画面
 ├─ app.js               # 画面の処理と保存
 ├─ handicap.js          # ハンデ計算エンジン(ブラウザ/Node 共通)
 ├─ simulate.js          # 方式比較のシミュレーション
+├─ build.js             # 1ファイル版を作る → dist/hirihiri-handicap.html
+├─ examples/worked-example.json  # 計算例(「読み込む」で取り込める)
 └─ test/handicap.test.js
 ```
 
@@ -55,6 +59,7 @@ cd golf-handicap
 python3 -m http.server 8000   # http://localhost:8000 を開く
 node --test test/handicap.test.js
 node simulate.js 200
+node build.js                  # 1ファイル版 dist/hirihiri-handicap.html を作る
 ```
 
 ローカルで開いた場合、データはそのブラウザの localStorage に保存されます。
