@@ -428,7 +428,7 @@
 
     var shared = S.store && S.store.kind === 'shared';
     out.push('<section class="card"><div class="card-h"><h2>データ</h2><span class="sub">' + (shared ? '共有リンクを開いた仲間と同じデータを見ています' : 'この端末のブラウザだけに保存しています') + '</span></div><div class="card-b">' +
-      '<p class="small muted">' + (shared ? '仲間に「共有」から編集できる権限(Contributor 以上)で送ると、誰のスマホからでもスコアを記録できます。' : '別の端末へ移すときは、書き出したテキストを向こうで読み込んでください。') + '</p>' +
+      '<p class="small muted">' + (shared ? '共有メニューから仲間をメールで「編集者」として招待すると、誰のスマホからでもスコアを記録できます。公開リンクで開いた人は見るだけになります。' : '別の端末へ移すときは、書き出したテキストを向こうで読み込んでください。') + '</p>' +
       '<div class="actions"><button class="btn sm" data-action="export">書き出す(コピー)</button></div>' +
       (S.exportText ? '<textarea id="export-text" readonly>' + esc(S.exportText) + '</textarea>' : '') +
       '<div class="field"><label for="import-text">読み込み(書き出したテキストを貼り付け)</label><textarea id="import-text" data-import placeholder="{&quot;players&quot;: …}">' + esc(S.importText) + '</textarea></div>' +
